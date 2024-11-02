@@ -7,20 +7,20 @@ function toggleMode() {
   // const bottomGrey = document.getElementById('bottomgrey');
 
 
-  if (themeLink.getAttribute('href') === '../assets/css/light.css') {
+  if (themeLink.getAttribute('href') === 'assets/css/light.css') {
     //Switch to Dark Mode
-    themeLink.setAttribute('href', '../assets/css/dark.css');
+    themeLink.setAttribute('href', 'assets/css/dark.css');
     toggleIcon.className = "fa-solid fa-toggle-off toggleon";
-    topWhite.src = '../assets/img/shape-top-dark-grey-80.png';
-    bottomWhite.src = '../assets/img/shape-bottom-dark-grey-80.png';
+    topWhite.src = 'assets/img/shape-top-dark-grey-80.png';
+    bottomWhite.src = 'assets/img/shape-bottom-dark-grey-80.png';
     // topGrey.src = '../assets/img/shape-top-dark-grey-80.png';
     // bottomGrey.src = '../assets/img/shape-bottom-dark-grey-80.png';
   } else {
     // Switch to Light Mode
-    themeLink.setAttribute('href', '../assets/css/light.css');
+    themeLink.setAttribute('href', 'assets/css/light.css');
     toggleIcon.className = 'fa-solid fa-toggle-on toggleon';
-    topWhite.src = '../assets/img/shape-top-grey-80.png';
-    bottomWhite.src = '../assets/img/shape-bottom-grey-80.png';
+    topWhite.src = 'assets/img/shape-top-grey-80.png';
+    bottomWhite.src = 'assets/img/shape-bottom-grey-80.png';
     // topGrey.src = '../assets/img/shape-top-grey-80.png';
     // bottomGrey.src = '../assets/img/shape-bottom-grey-80.png';
   }
